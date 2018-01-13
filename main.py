@@ -1,10 +1,7 @@
 from tkinter import *
-from tkinter import messagebox, filedialog
-from tkinter import font
 from tkinter.ttk import *
 
 import pyevtx
-import sys
 
 
 class GUI(Tk):
