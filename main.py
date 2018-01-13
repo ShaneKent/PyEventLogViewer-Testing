@@ -1,8 +1,11 @@
-from tkinter import *
-from tkinter.ttk import *
+try:
+    from tkinter import *
+    from tkinter.ttk import *
 
-import pyevtx
-
+    import pyevtx
+except ImportError:
+    print("Please run with Python 3")
+    exit(0)
 
 class GUI(Tk):
     def __init__(self, *args, **kwargs):
