@@ -10,7 +10,7 @@ except ImportError:
 class GUI(Tk):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.winfo_toplevel().title('PyEventLogViewer')
+        self.winfo_toplevel().title('PyEventLogViewer - Debugging')
         self.minsize(width=800, height=600)
 
         self.log_file_area = LogFileEntry(self)
